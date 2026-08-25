@@ -1,3 +1,4 @@
+from math import *
 print("Hello World")
 """
 print("Below is a right-angle triangle")
@@ -67,7 +68,55 @@ print(phrase.index(" nib")) #can put here and it would show where it starts whic
 print(phrase.replace("nibbles", "Eats")) #this allows you to replace certain words or letters inside strings with new ones, you take the old phrase and put the new phrase after a comma after it
 
 
+
 #NUMBERS
+#Can normally print numbers and do arithmetic operations like this
+print(2)
+print(-4.553)
+print(3/4) #this would print out 0.75
+print (2*7)
+#for more complex operations we can specify the order of operations like this
+print(2*3-4) #This would print 2 because python takes it from a sort of left to right reading and doesn't follow the idea of bodmas unless
+print(2 * (3-4)) #This would perform the operation in the brackets first, giving -1 and then multiply 2* that repsonse. 
+#Brackets help with the order of things
+print(11 % 3) #this takes the first number, divides it by the second number and produces the remainder from the division so 11 divided by 3 gives 3 remainder 2 what becomes the remainder?
+#we can store our numbers in variables
+first_num = 4
+print (first_num)
+#guess what you can change a number to a string 
+print (str(first_num))  #it would print out 4 but not as a number, as a string
+#comes in handy if you want to print numbers with strings because using a number data type (int) and string output produces an error
+print (str(first_num) + " and 5 go together")
+
+#MATH FUNCTIONS - function is a collection of code doing something 
+num = -4
+print(abs(num)) #abs is for absolute values
+print(pow(3, 8)) #with pow, you can give it 2 pieces of info. 1st could be a number and second the power you want to take that to. so this is 3 to the power of 8
+print(pow(num, 2))
+print(max(num, 2)) #max returns which of the two numbers is bigger
+print(min(num, 2)) #does the opposite of max
+print(round(3.6)) #rounding numbers
+
+#There are more further advanced math operations but we'd have to import (see top of document)
+print(floor(3.4)) #takes the lowest number and chops off everything
+print(floor(3.471)) #takes the lowest number and chops off everything after decimal point, rounds up
+print(ceil(3.4)) #takes and rounds up
+print(sqrt(144))
+print(cbrt(27))
+
+
+#GETTING INPUT FROM USER
+#input("What is your favorite color?") this lets python know we want to get input from user and allows a user to type in something and takes it. 
+#the prompt which goes on our end in the brackets lets the user know what kind of information to put
+#we can store whatever the user puts into a program inside a variable. So to make a program that gets a users fav color and prints oh nice
+color = input("What is your favorite color?") #now the value that the user gives would be stores in the variable color
+song = input("Favorite song: ")
+print("Wow " + color + " is a nice color:)\nI have never heard of " + song + " before:(")
+
+
+
+
+
 
 #Learning if else statements. you have if elif(elseif) and else, the semicolon tells the console there is a block of code that happens in here, then indentation allows for that code to stay in
 #you must order your elif chain from most specific/strict to least strict, so the narrowest, most exclusive condition gets first chance to catch it.
