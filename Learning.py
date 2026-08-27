@@ -40,6 +40,7 @@ print("but didn't like her laptop's functionality.")
 
 #STRINGS
 #Need quotation marks and put a string/text inside of it
+print("1") #this prints the number 1 but as a string
 print("Learning about strings now") 
 print("Learning about strings now \n creates a new line") # this separates everytext before it on one line and the text after the \n on another line
 print("Learning about strings now \ this for  python to print a quotation mark without errors") #This for backslash
@@ -70,7 +71,7 @@ print(phrase.replace("nibbles", "Eats")) #this allows you to replace certain wor
 
 
 #NUMBERS
-#Can normally print numbers and do arithmetic operations like this
+#Can normally print numbers and do arithmetic operations like this. Only have numbers when you want to do mathematical operations, else leave it as strings
 print(2)
 print(-4.553)
 print(3/4) #this would print out 0.75
