@@ -119,17 +119,4 @@ print("Wow " + color + " is a nice color:)\nI have never heard of " + song + " b
 
 
 
-#Learning if else statements. you have if elif(elseif) and else, the semicolon tells the console there is a block of code that happens in here, then indentation allows for that code to stay in
-#you must order your elif chain from most specific/strict to least strict, so the narrowest, most exclusive condition gets first chance to catch it.
-#python runs from top to bottom
-"""_summary_
-score = 75
-if score >= 90:
-    print ("A")
-elif score >= 80:
-    print("B") 
-elif score >=70:
-    print("C")
-else: 
-    print("F") 
-"""
+
