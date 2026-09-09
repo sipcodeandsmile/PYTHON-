@@ -15,11 +15,15 @@ hello()
 
 #you can give your functions parameters, which are pieces of information you give your funciton
 #example if you want to give your function a parameter like a name 
+#A parameter is a named placeholder for information that a function expects to receive.
+#Think of a function as a form: Name - 
 #you could do
+
 def sayhi(name) :
-    print("Hello " + name)
+    print("Hello " + name)   #Name is a blank space, and we've simply said whenever someone uses this function, expect a name to be given
     
 sayhi("Riri") #you have to pass something into the parameter
+#This "Riri" becomes an argument, Parameter is the placeholder(name) whiles argument is the actual value (riri)
 
 #you could have many parameters
 def more(name, age, fav_color ) :
@@ -102,6 +106,10 @@ The pass statement is often used when developing, allowing you to define the str
 
 
 #RETURN : functions can return values using the return statement;
+#if we want the answer back so that the rest of our program can use it, we use a return 
+#There's a difference between print and return
+#Print shows something to the user 
+#Return says send this value back to the place where the function was called.
 def addition(x, y):
   return x + y
 
@@ -173,4 +181,6 @@ just_keywords(name = "Emil")
 #Without *,, you are allowed to use positional arguments even if the function expects keyword arguments
 #With *,, you will get an error if you try to use positional arguments:
 #You can combine both argument types in the same function.
-#Arguments before / are positional-only, and arguments after * are keyword-only:
+#Arguments before / are positional-only, and arguments after * are keyword-only
+
+#SCOPE
