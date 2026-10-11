@@ -115,7 +115,12 @@ song = input("Favorite song: ")
 print("Wow " + color + " is a nice color:)\nI have never heard of " + song + " before:(")
 
 
-
+n = 100
+y = 'years'
+print(str(n) + y)
+print(str(n) +        y)
+print(f'{n} {y}')
+print('{n} {y}')
 
 
 
